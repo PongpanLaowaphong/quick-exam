@@ -302,7 +302,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
                 rows={10}
                 spellCheck={false}
                 placeholder={`{\n  "title": "My Practice Exam",\n  "questions": [\n    {\n      "id": 1,\n      "question": "Your question here?",\n      "options": [\n        { "id": "A", "text": "Choice A" },\n        { "id": "B", "text": "Choice B" }\n      ],\n      "correctAnswers": ["A"],\n      "explanation": "Why A is correct."\n    }\n  ]\n}`}
-                className="w-full rounded-xl border border-slate-200 bg-slate-50 p-3.5 font-mono text-xs leading-relaxed text-slate-900 placeholder-slate-400 transition focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-500/20 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:placeholder-slate-600 dark:focus:border-indigo-400"
+                className="w-full rounded-xl border border-slate-200 bg-slate-50 p-3.5 font-mono text-xs leading-relaxed text-slate-900 placeholder-slate-400 transition focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-500/20 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:placeholder-slate-500 dark:focus:border-indigo-400 dark:focus:bg-slate-950 dark:focus:ring-indigo-400/20"
               />
 
               <div className="flex justify-end">
